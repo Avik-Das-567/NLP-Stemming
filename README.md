@@ -26,7 +26,9 @@
 - **`streamlit`**
 ---
 ### Output of the Code
-  `Stemmed: ['I', 'am', 'enjoy', ',', 'enjoy', ',', 'and', 'enjoy', 'thi', 'moment', '.']`
+```
+Stemmed: ['I', 'am', 'enjoy', ',', 'enjoy', ',', 'and', 'enjoy', 'thi', 'moment', '.']
+```
 - Words like "enjoying", "enjoyed", "enjoys" are all reduced to "**enjoy**".
 ---
 ### Some Important Points
