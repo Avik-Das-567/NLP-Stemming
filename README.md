@@ -6,9 +6,8 @@
 - **Stemming** is the process of cutting words to their **base or root form**.
 - It helps group similar words like “playing”, “played”, “plays” into a single base word → “**play**”.
 - The stem **may not be a valid word**, but it represents the core meaning.
-- **Real-Life Example:-**
+- **Example Sentence:**
 
-  If someone writes:
   > "He is playing and she played."
   
   After stemming:
