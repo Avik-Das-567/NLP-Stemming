@@ -24,13 +24,18 @@
 - **`nltk`**
 - **`streamlit`**
 ---
-### Output of the Code
+### How the App Works -
+- **Input:**
 ```
-Stemmed: ['I', 'am', 'enjoy', ',', 'enjoy', ',', 'and', 'enjoy', 'thi', 'moment', '.']
+text = "I am enjoying, enjoyed, and enjoys this moment."
+```
+- **Output:**
+```
+Stemmed: ["I", "am", "enjoy", ",", "enjoy", ",", "and", "enjoy", 'thi", "moment", "."]
 ```
 - Words like "enjoying", "enjoyed", "enjoys" are all reduced to "**enjoy**".
 ---
-### Some Important Points
+### Additional Insights :
 - Stemming does not always return **real dictionary words**.
 - Stemming works based on **rules** and **patterns**.
 - Common stemmers: **PorterStemmer**, **SnowballStemmer**, **LancasterStemmer**.
