@@ -13,4 +13,5 @@ text = "I am enjoying, enjoyed, and enjoys this moment."
 words = word_tokenize(text)
 stemmed = [ps.stem(w) for w in words]
 
-st.write("Stemmed:", stemmed)
+st.write("Input Text :-", text)
+st.write("After Stemming, Output is :-", stemmed)
